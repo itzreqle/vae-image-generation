@@ -6,11 +6,11 @@ This program generates images using a Variational Autoencoder (VAE) model and ap
 
 The program consists of a Python script that uses TensorFlow and Keras to create and train a VAE model. Here's how it works:
 
-1. The VAE model is built with an encoder and a decoder.
-2. The encoder takes input images and encodes them into a lower-dimensional latent space.
-3. The decoder takes random points in the latent space and decodes them into images.
-4. The generated images are then processed with effects, including resizing, adding gradient backgrounds, randomizing colors, and applying Gaussian blur.
-5. The processed images are saved to an output directory.
+- The VAE model is built with an encoder and a decoder.
+- The encoder takes input images and encodes them into a lower-dimensional latent space.
+- The decoder takes random points in the latent space and decodes them into images.
+- The generated images are then processed with effects, including resizing, adding gradient backgrounds, randomizing colors, and applying Gaussian blur.
+- The processed images are saved to an output directory.
 
 ## Installation
 
@@ -25,18 +25,18 @@ cd vae-image-generation
    
 2. Install Dependencies: Install the required Python dependencies.
 
-  ```bash
-  pip install tensorflow opencv-python-headless numpy scipy
-  ```
+```bash
+pip install tensorflow opencv-python-headless numpy scipy
+```
 
 Make sure you have Python and pip installed.
 
 3. Run the Program: Execute the vae_image_generation.py script with the desired command-line arguments.
 Example:
 
-  ```bash
-  python vae_image_generation.py --height 900 --width 900 --latent_dim 100 --channels 3 --num_samples 10 --output_dir samples
-  ```
+```bash
+python vae_image_generation.py --height 900 --width 900 --latent_dim 100 --channels 3 --num_samples 10 --output_dir samples
+```
 
 You can customize the program's behavior by adjusting the command-line arguments. Refer to the How It Works section for more details on the available options.
 
