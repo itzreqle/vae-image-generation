@@ -18,10 +18,10 @@ Follow these steps to set up and run the program:
 
 1. **Clone the Repository**: Clone this repository to your local machine and navigate to the cloned directory.
 
-   ```bash
-   git clone https://github.com/itzreqle/vae-image-generation.git
-   cd vae-image-generation
-   ```
+```bash
+git clone https://github.com/itzreqle/vae-image-generation.git
+cd vae-image-generation
+```
    
 2. Install Dependencies: Install the required Python dependencies.
 
